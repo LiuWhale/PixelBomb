@@ -280,6 +280,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PixelBomb.csproj">
+      <Project>{0051A649-8817-64AB-3C54-429C9C27A3B4}</Project>
+      <Name>PixelBomb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Editor\ImageSlicer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
